@@ -4,7 +4,7 @@ Using the 🍺 [Brewdog Punk API](https://punkapi.com/documentation/v2) (no auth
 
 Feel free to [personnalize](http://necolas.github.io/react-native-web/docs/?path=/docs/guides-style--page) your app with a kickass style ✨.
 
-You can use **TypeScript** or **JavaScript** (pick the one you feel the most confident with).
+You can use JavaScript or TypeScript (pick the one you feel the most confident with).
 
 By default, `src/JavaScript/App.js` file will be used as entry point. To switch and use the `src/TypeScript/App.tsx` file, set the `USE_TYPESCRIPT` variable in `src/index.tsx` to `true`.
 
