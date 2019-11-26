@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import { render } from "react-dom";
+import AppJs from "./JavaScript/App";
+import AppTs from "./TypeScript/App";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+if (typeof window.ResizeObserver === "undefined") {
+  // polyfill for ResizeObserver API (https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
+  // you will probably don't use this directly
+  window.ResizeObserver = require("resize-observer-polyfill").default;
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const USE_TYPESCRIPT = false;
+render(USE_TYPESCRIPT ? <AppTs /> : <AppJs />, document.getElementById("root"));
