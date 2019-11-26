@@ -1,6 +1,8 @@
 # Punk API exercise
 
-Using the 🍺 [Brewdog Punk API](https://punkapi.com/documentation/v2) (no authentification required 👍) and ⚛[React](https://reactjs.org) + [React Native Web](http://necolas.github.io/react-native-web/docs), you will create a single page application with a simple form to search and display a beer list as you type. Feel free to [personnalize](http://necolas.github.io/react-native-web/docs/?path=/docs/guides-style--page) your app with a kickass style ✨.
+Using the 🍺 [Brewdog Punk API](https://punkapi.com/documentation/v2) (no authentification required 👍) and ⚛[React](https://reactjs.org) + [React Native Web](http://necolas.github.io/react-native-web/docs), you will create a single page application with a simple form to search and display a beer list as you type.
+
+Feel free to [personnalize](http://necolas.github.io/react-native-web/docs/?path=/docs/guides-style--page) your app with a kickass style ✨.
 
 You can use **TypeScript** or **JavaScript** (pick the one you feel the most confident with).
 
